@@ -12,7 +12,10 @@
         <title>Customer home page</title>
     </head>
     <body>
+        
         <h1>Hello <%=request.getParameter( "email" )%> </h1>
         You are now logged in as a customer of our wonderful site.
+        <a href="FrontController?command=shop"><button>Gå til shop</button> </a>
+        <a href="FrontController?command=oldorders"><button>Gå til tidligere ordrer</button></a>
     </body>
 </html>

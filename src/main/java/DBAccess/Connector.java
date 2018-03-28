@@ -11,9 +11,9 @@ import java.sql.SQLException;
  */
 public class Connector {
 
-    private static final String URL = "jdbc:mysql://localhost:3306/useradmin?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
-    private static final String USERNAME = "lego_user";
-    private static final String PASSWORD = "Airdog86";
+    private static final String URL = "jdbc:mysql://159.89.110.12:3306/useradmin?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+    private static final String USERNAME = "swoop";
+    private static final String PASSWORD = "airdog86";
 
     private static Connection singleton;
 
